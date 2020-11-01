@@ -30,7 +30,7 @@ body {
 
 .content {
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: repeat(6, auto);
 }
 
 .content__title {
@@ -93,8 +93,8 @@ body {
 
 @media only screen and (min-width: 600px) {
   .content {
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
   }
 
   .content__title {
